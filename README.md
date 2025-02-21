@@ -47,17 +47,9 @@
 <br/>
 <br/>
 
-### 📊 GitHub Stats
-![Junseok's GitHub stats](https://github-readme-stats.vercel.app/api?username=chajunseok&show_icons=true&theme=tokyonight)
-
-### 💡 Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chajunseok&layout=compact&theme=tokyonight)
-
-### 🏃‍♂️ Contribution Graph
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chajunseok&theme=tokyonight)
-
-### 🔥 Strike
-[![GitHub Streak](https://streak-stats.demolab.com/?user=chajunseok&theme=tokyonight)](https://git.io/streak-stats)
+### 💪 Algorithm
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wnstjr401)](https://solved.ac/wnstjr401/)
+<img src="http://mazandi.herokuapp.com/api?handle=wnstjr401&theme=warm"/>
 
 </div>
 
