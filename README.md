@@ -42,7 +42,6 @@
   <img src="https://img.shields.io/badge/Detectron2-013243?style=for-the-badge&logo=detectron2&logoColor=white">&nbsp
 </div>
 
-// ... 기존 하단 코드 유지 ...
 <h2>🛠 Tools 🛠</h2>
 <div>
   <img src="https://img.shields.io/badge/git-F05033.svg?style=for-the-badge&logo=git&logoColor=white" />&nbsp
