@@ -48,16 +48,16 @@
 <br/>
 
 ### 📊 GitHub Stats
-![Junseok's GitHub stats](https://github-readme-stats.vercel.app/api?username=깃허브아이디&show_icons=true&theme=tokyonight)
+![Junseok's GitHub stats](https://github-readme-stats.vercel.app/api?username=chajunseok&show_icons=true&theme=tokyonight)
 
 ### 💡 Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=깃허브아이디&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chajunseok&layout=compact&theme=tokyonight)
 
 ### 🏃‍♂️ Contribution Graph
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=깃허브아이디&theme=tokyonight)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chajunseok&theme=tokyonight)
 
 ### 🔥 Strike
-[![GitHub Streak](https://streak-stats.demolab.com/?user=깃허브아이디&theme=tokyonight)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=chajunseok&theme=tokyonight)](https://git.io/streak-stats)
 
 </div>
 
