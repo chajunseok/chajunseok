@@ -1,8 +1,8 @@
 <h1 align="center">차준석 / Junseok Cha</h1>
 
 <p align="center">
-  금융권 연계 솔루션 회사에서 관리 콘솔 프론트엔드를 만들고 있습니다.<br/>
-  React로 화면을 짜고, 필요하면 Spring Boot API와 DB까지 직접 손봅니다.
+  금융권 연계 솔루션 회사에서 관리 콘솔을 만들고 있습니다.<br/>
+  React로 화면을 짜고, Spring Boot API와 DB까지 개발하고 있습니다.
 </p>
 
 <p align="center">
