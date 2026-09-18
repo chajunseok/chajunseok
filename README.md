@@ -14,7 +14,7 @@
 
 <br/>
 
-## 🙋‍♂️ About Me
+## About Me
 
 금융권 연계 솔루션 회사에서 **React / TypeScript 기반 Frontend와 Spring Boot 기반 Backend를 함께 개발**하고 있습니다.
 
@@ -35,13 +35,13 @@
 
 <br/>
 
-## 🔭 What I'm Working On
+## What I'm Working On
 
 <table>
   <tr>
-    <th width="33%">🏗 관리 콘솔 차세대 전환</th>
-    <th width="33%">⚙️ Backend API</th>
-    <th width="33%">🤖 On-Premise LLM</th>
+    <th width="33%">관리 콘솔 차세대 전환</th>
+    <th width="33%">Backend API</th>
+    <th width="33%">On-Premise LLM</th>
   </tr>
   <tr>
     <td valign="top">
@@ -65,7 +65,7 @@
 
 <br/>
 
-## 🧠 AI & Developer Experience
+## AI & Developer Experience
 
 새로운 AI 도구가 나오면 단순히 기능을 확인하는 데서 끝내지 않고 실제 개발 환경에 적용해 보고 있습니다.
 
@@ -75,7 +75,18 @@
   <code>요구사항 분석</code> → <code>구현 계획</code> → <code>코드 작성</code> → <code>리뷰</code> → <code>검증</code>
 </p>
 
-새로운 MCP나 Plugin을 발견하면 아래 과정을 거쳐 팀에서 사용할 가치가 있는지를 판단합니다.
+이 흐름을 한 번에 끝내지 않고 **개발 파이프라인**으로 만들어 두고 있습니다. 계획이 확정되면 구현은 Subagent에 맡기고, 결과는 리뷰 에이전트가 먼저 검토한 뒤 사람이 확인합니다. 실패하면 원인을 다시 정리해서 같은 에이전트에 되돌려 보내는 **Loop 방식**으로 진행하고, 화면 여러 개를 동시에 만들어야 할 때는 파일이 겹치지 않는 범위에서 **Agent Team**으로 나눠 병렬로 처리합니다.
+
+<table>
+  <tr>
+    <td align="center" width="25%"><b>파이프라인</b><br/><sub>계획 → 구현 → 리뷰 → 검증을<br/>Skill과 Hook으로 고정</sub></td>
+    <td align="center" width="25%"><b>Subagent</b><br/><sub>구현·리뷰·테스트를<br/>역할별 에이전트로 분리</sub></td>
+    <td align="center" width="25%"><b>Loop</b><br/><sub>실패 시 원인 정리 후<br/>같은 에이전트에 재작업</sub></td>
+    <td align="center" width="25%"><b>Agent Team</b><br/><sub>파일이 겹치지 않는 작업을<br/>병렬로 분배</sub></td>
+  </tr>
+</table>
+
+새로운 MCP나 Plugin, Coding Agent를 발견하면 아래 과정을 거쳐 팀에서 사용할 가치가 있는지를 판단합니다.
 
 <p align="center">
   <code>도입</code> → <code>테스트</code> → <code>실제 프로젝트 적용</code> → <code>장단점 리뷰</code> → <code>팀 공유</code>
@@ -85,12 +96,12 @@
 
 <br/>
 
-## 📦 Projects
+## Projects
 
 <table>
   <tr>
     <td width="30%" valign="top">
-      <h3>🗺️ <a href="https://github.com/chajunseok/claude-config-map">claude-config-map</a></h3>
+      <h3><a href="https://github.com/chajunseok/claude-config-map">claude-config-map</a></h3>
       <img src="https://img.shields.io/badge/Python-stdlib%20only-3776AB?style=flat-square&logo=python&logoColor=white"/><br/>
       <img src="https://img.shields.io/badge/Local-127.0.0.1-555?style=flat-square"/>
     </td>
@@ -107,35 +118,56 @@
 
 <br/>
 
-## 🛠 Tech Stack
+## Tech Stack
 
 <table>
   <tr>
     <td align="right" width="140"><b>Frontend</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,vitest,vue&theme=light" height="40"/><br/>
-      <sub>TanStack Query · Zustand · React Hook Form · Zod · Radix UI · Storybook</sub>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square"/>
+      <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Storybook-FF4785?style=flat-square&logo=storybook&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td align="right"><b>Backend / DB</b></td>
+    <td align="right" width="140"><b>Backend / DB</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=spring,hibernate,postgres,mysql,redis,py&theme=light" height="40"/><br/>
-      <sub>Spring Boot · JPA · QueryDSL</sub>
+      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JPA%20%2F%20QueryDSL-59666C?style=flat-square"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td align="right"><b>AI / Tools</b></td>
+    <td align="right" width="140"><b>AI / Tools</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=figma,git,github,obsidian&theme=light" height="40"/><br/>
-      <sub>Claude Code · MCP · Plugins / Skills / Subagents · llama.cpp</sub>
+      <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Hermes%20Agent-1E2E44?style=flat-square"/>
+      <img src="https://img.shields.io/badge/OpenClaw-F58A2A?style=flat-square"/>
+      <img src="https://img.shields.io/badge/MCP-5B5BD6?style=flat-square"/>
+      <img src="https://img.shields.io/badge/llama.cpp-000000?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=flat-square&logo=obsidian&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
     </td>
   </tr>
 </table>
 
 <br/>
 
-## 📫 Contact
+## Contact
 
 <p align="center">
   <a href="mailto:wnstjr401@gmail.com"><img src="https://img.shields.io/badge/wnstjr401%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
