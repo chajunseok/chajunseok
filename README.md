@@ -1,35 +1,30 @@
-<h1 align="center">Hi, I'm Junseok Cha 👋</h1>
+<h1 align="center">차준석 / Junseok Cha</h1>
 
 <p align="center">
-  금융권 연계(EAI/ESB) 플랫폼의 <b>운영 관리 콘솔</b>을 만드는 프론트엔드 개발자입니다.<br/>
-  React/TypeScript가 주 무기지만, 화면 하나를 끝내려면 Spring Boot API와 DB 스키마까지 내려가야 해서 그쪽도 같이 씁니다.
+  금융권 연계 솔루션 회사에서 관리 콘솔 프론트엔드를 만들고 있습니다.<br/>
+  React로 화면을 짜고, 필요하면 Spring Boot API와 DB까지 직접 손봅니다.
 </p>
 
 <p align="center">
   <a href="mailto:wnstjr401@gmail.com"><img src="https://img.shields.io/badge/Gmail-wnstjr401%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="email"/></a>
   <a href="https://chajunseok.github.io/"><img src="https://img.shields.io/badge/Portfolio-chajunseok.github.io-1E2E44?style=flat-square&logo=githubpages&logoColor=white" alt="portfolio"/></a>
-  <img src="https://komarev.com/ghpvc/?username=chajunseok&style=flat-square&color=F58A2A" alt="views"/>
 </p>
 
 ---
 
-## 🧑‍💻 About me
+## 요즘 하는 일
 
-- 🏗 레거시 JSP 관리 콘솔을 **React 19 + TypeScript MDI** 구조로 이전하는 프로젝트를 이끌고 있습니다 — 라우터 없는 탭 기반 SSOT, `features / shared` 계층 규칙을 lint로 강제, 화면 190여 개
-- ⚙️ 백엔드는 **Spring Boot 4 · JPA/QueryDSL · PostgreSQL** — 대용량 거래 로그 조회, 연계 엔진 HTTP 연동, 메뉴 단위 권한 AOP
-- 🤖 폐쇄망에서 돌아가는 **운영 보조 LLM**(경량 모델 + RAG)을 설계 중입니다 — 장애 원인 1차 분기, 자연어 조회, 화면 안내
-- 🧰 **Claude Code**를 팀 워크플로에 넣는 도구와 규칙을 만듭니다 — PRD → plan → 구현 위임 → 검증 파이프라인, 훅, 스킬
-- 📝 작업 기록은 Obsidian에 남기고, 반복되는 패턴은 스킬로 굳힙니다
+- JSP로 된 관리 콘솔을 React 19 + TypeScript로 옮기는 중. 화면이 190개 정도 됩니다. 라우터 없이 탭(MDI)으로 도는 구조라 그에 맞는 폴더 규칙과 lint 규칙을 정해서 쓰고 있습니다.
+- 백엔드는 Spring Boot 4 + JPA/QueryDSL + PostgreSQL. 거래 로그 조회, 연계 엔진 HTTP 호출, 메뉴별 권한 체크 같은 것들.
+- 인터넷 안 되는 환경에서 돌아가는 작은 LLM으로 운영자를 도와주는 기능을 설계하고 있습니다. 장애 났을 때 원인 후보 뽑아주기, 말로 조회 조건 만들기, 화면 안내 정도.
+- Claude Code를 팀에서 쓰기 위한 규칙과 도구를 정리하고 있습니다. 그중 하나가 아래 claude-config-map.
 
-## 🔭 Now
+## 만든 것
 
-| | |
-|:--|:--|
-| 🏗 | 연계 플랫폼 관리 콘솔 5.0 — JSP → React 전환 |
-| 🤖 | 운영자용 LLM 어시스턴트 설계 — 로그·장애 진단 / Q&A / 자연어 조회 |
-| 🧰 | [**claude-config-map**](https://github.com/chajunseok/claude-config-map) — 흩어진 Claude Code 설정을 한 화면에서 보고 고치는 로컬 도구 (Python stdlib only) |
+- [**claude-config-map**](https://github.com/chajunseok/claude-config-map) — 여기저기 흩어진 Claude Code 설정 파일(CLAUDE.md, settings.json, 스킬, 훅, MCP)을 브라우저 한 화면에서 보고 고치는 로컬 도구. Python 표준 라이브러리만 씀.
+- 회사 코드는 사내 GitLab에 있어서 여기엔 없습니다.
 
-## 🛠 Tech Stack
+## 쓰는 것들
 
 **Frontend**
 <p>
@@ -47,7 +42,7 @@
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
 </p>
 
-**Backend & Data**
+**Backend / DB**
 <p>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/JPA_/_QueryDSL-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
@@ -57,7 +52,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 </p>
 
-**AI & Tools**
+**AI / Tools**
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
   <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white"/>
@@ -67,27 +62,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 </p>
 
-## 📌 Featured
+## 연락
 
-<p>
-  <a href="https://github.com/chajunseok/claude-config-map"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chajunseok&repo=claude-config-map&theme=default&hide_border=true" alt="claude-config-map"/></a>
-  <a href="https://github.com/chajunseok/potless"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chajunseok&repo=potless&theme=default&hide_border=true" alt="potless"/></a>
-</p>
-<p>
-  <a href="https://github.com/chajunseok/beevarium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chajunseok&repo=beevarium&theme=default&hide_border=true" alt="beevarium"/></a>
-  <a href="https://github.com/chajunseok/tiso"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chajunseok&repo=tiso&theme=default&hide_border=true" alt="tiso"/></a>
-</p>
-
-> 회사 업무 코드는 사내 GitLab에 있어 여기엔 없습니다. 위 셋(potless·beevarium·tiso)은 부트캠프 시절 프로젝트라 지금 코드와는 결이 다르지만 남겨둡니다.
-
-## 📊 GitHub Stats
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=chajunseok&show_icons=true&hide_border=true&theme=default&count_private=true" height="160" alt="stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chajunseok&layout=compact&hide_border=true&theme=default&hide=html,css,jupyter%20notebook" height="160" alt="top langs"/>
-</p>
-
-## 📫 Contact
-
-- Email: **wnstjr401@gmail.com**
-- Portfolio: **https://chajunseok.github.io/**
+wnstjr401@gmail.com · https://chajunseok.github.io/
